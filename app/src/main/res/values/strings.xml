@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">MushTool</string>
+    <string name="title_activity_plist_grid"> plist_grid</string>
+    <string name="title_activity_pcamera"> pcamera</string>
+    <string name="title_activity_plantilla_buscar">plantilla_buscar</string>
+    <string name="title_activity_bottom_navigate_bar">BottomNavigateBar</string>
+
+    #Listas
+    <string name="boton_2da_pantalla">Leer mas...</string>
+    <string name="title_activity_login" translatable="false" />
+
+    #Idiomas
+    <string name="idioma_espanol">Español</string>
+    <string name="idioma_catalan">Catalan</string>
+    <string name="idioma_ingles">Ingles</string>
+    <string name="idioma_frances">Frances</string>
+    <string name="idioma_aleman">Aleman</string>
+    <string name="idioma_italiano">Italiano</string>
+
+
+    #Login
+    <string name="login">Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="boton_login">Iniciar Sesion</string>
+    <string name="boton_registrarse">Registrarse</string>
+
+    #Registro
+    <string name="registro">Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="email">Email</string>
+    <string name="boton_registrar">Registrar</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_guess_game">GuessGameActivity</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="title_activity_play_memory">PlayMemoryActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    #recetas
+    <string name="titulo_receta1">Arroz con secreto iberico y setas</string>
+    <string name="titulo_receta2">Merluza en salsa con setas</string>
+    <string name="titulo_receta3">Huevos rotos con setas y foie</string>
+    <string name="titulo_receta4">Níscalos con patatas (un guiso tradicional de otoño que tienes que probar)</string>
+
+    <string name="descripcion_receta1">
+        En una cazuela grande, calienta un poco de aceite de oliva y fríe la carne hasta
+        que esté dorada.
+        En la misma cazuela, agrega un poco más de aceite y sofríe la cebolla y los ajos
+        hasta que estén dorados.
+        Agrega los pimientos y el tomate y cocina a fuego medio hasta que estén tiernos.
+        Añade las setas y cocina todo junto durante unos minutos.
+        Agrega el pimentón y remueve bien.
+        Incorpora el arroz y mézclalo bien con el sofrito.
+        Vierte el caldo de carne y lleva a ebullición.
+        Reduce el fuego y cocina durante unos 18-20 minutos, removiendo de vez en cuando,
+        hasta que el arroz esté tierno y haya absorbido todo el caldo.
+        Añade la carne reservada y cocina durante 5 minutos más.
+        Sirve caliente
+    </string>
+    <string name="descripcion_receta2">
+        Pica las cebolletas, corta los dientes de ajo en láminas y ponlos a dorar en una sartén
+        con un chorrito de aceite. Sazona. Cuando empiecen a tomar color, agrega los lomos de
+        merluza salpimentados y cocina durante unos minutos por los dos lados.
+        Retira el pescado a un plato. Añade la harina, rehoga bien y moja con el vino blanco y
+        el caldo de pescado. Deja que hierva durante 2-3 minutos e incorpora de nuevo los lomos
+        de merluza en la salsa. Cocina durante 2 minutos de cada lado. Retira el pescado y mantén
+        caliente la salsa. el jugo de perejil, pon un manojo de perejil picado en un vaso
+        batidor y agrega un poco de agua. Tritura con la batidora eléctrica y cuela.
+        Incorpora el jugo a la salsa (1 o 2 cucharones), menea para mezclar bien y sazona.
+        Reserva templada.
+        Saltea las setas en una sartén con un poco de aceite durante 2-3 minutos. Sazona.
+    </string>
+
+    <string name="descripcion_receta3">
+        Pela las patatas, trocéalas (como para tortilla) y fríelas en una sartén con abundante
+        aceite caliente. Escurre las patatas y reserva el aceite en la sartén. Reparte las
+        patatas en 4 cazuelitas aptas para el horno y condimenta con sal, vinagre y un diente
+        de ajo picado.
+        En una sartén con un chorro de aceite, dora 2 dientes de ajo picaditos. Quítale la tierra
+        a las setas, trocéalas, añade a la sartén y saltea. Reparte las setas en las cazuelitas
+        y reserva.
+        Fríe los huevos en la misma sartén que has utilizado para freír las patatas.
+        Coloca uno o dos huevos (al gusto) encima de cada cazuelita.
+        Corta el foie en 4 porciones, pon encima de cada cazuelita una porción y hornea
+        a 180º C, durante 1-2 minutos. Rompe las yemas de los huevos y sirve con perejil
+        picado por encima.
+    </string>
+
+    <string name="descripcion_receta4">
+        Limpiamos los níscalos con ayuda de un paño húmedo
+        Cortamos el pie de los níscalos, Salteamos la cebolla y el ajo, Ponemos una cacerola
+        a fuego medio-bajo con un fondo de aceite de oliva.
+        Añadimos la cebolla y el ajo, añadimos un poco de sal, y cocinamos a fuego bajo,
+        hasta que la cebolla esté transparente.
+        Pelamos las patatas y las chascamos. Para eso nos ayudamos con un cuchillo
+        terminando de romperlas girando con la mano. Esto se hace para que las patatas
+        suelten más almidón.
+        Añadimos las patatas y los níscalos a la cacerola, Agregamos también el vino blanco,
+        el pimentón dulce, la carne del pimiento choricero previamente hidratada y
+        raspada con una cuchara, y las hojas de laurel.
+        Removemos todo para que se impregnen bien las patatas y los níscalos
+        Cocinamos durante 5 minutos
+        Añadimos caldo de verduras hasta cubrir las patatas. También podemos añadir agua
+        y una pastilla de caldo de verduras para darle más sabor.
+        Bajamos el fuego y cocinamos durante ½ hora, hasta que las patatas estén tiernas.
+        Probamos el caldo y rectificamos de sal si es necesario
+        Servimos caliente
+    </string>
+
+    <string name="ingrediente_receta1">
+        200 g de arroz redondo
+        400 g de secreto ibérico
+        1 cebolla
+        2 dientes de ajo
+        200 g de setas (pueden ser setas de cardo, shiitake, portobello, etc.)
+        1 pimiento verde
+        1 pimiento rojo
+        1 tomate maduro
+        1 cucharada de pimentón dulce
+        1 litro de caldo de carne
+        Aceite de oliva
+        Sal y pimienta
+    </string>
+
+    <string name="ingrediente_receta2">
+        4 lomos de merluza (200 gr. cada uno)
+        300 gr. de setas de primavera
+        2 cebolletas
+        2 dientes de ajo
+        1/2 vaso de vino blanco
+        1 vaso de caldo de pescado
+        1 cucharada de harina
+        Agua
+        Aceite de oliva
+        Sal
+        Pimienta negra
+        Perejil
+    </string>
+    <string name="ingrediente_receta3">
+        4 patatas
+        8 huevos
+        300 gr. de setas
+        50 gr. de foie (mi-cuit)
+        3-4 dientes de ajo
+        vinagre
+        aceite virgen extra
+        sal
+        perejil picado
+    </string>
+    <string name="ingrediente_receta4">
+        250 g de níscalos
+        3 patatas
+        1 cebolleta
+        2 dientes de ajo
+        1 cucharada de carne de pimiento choricero
+        1 cucharadita de pimentón dulce
+        2 hojas de laurel
+        ½ vaso de vino blanco
+        Caldo de verduras
+        Aceite de oliva
+        Sal
+    </string>
+    <string name="title_activity_pweb">pWeb</string>
+    <string name="title_activity_recetas_factivity">RecetasFActivity</string>
+    <string name="title_activity_forum">ForumActivity</string>
+    <string name="title_activity_api">ApiActivity</string>
+    <string name="title_activity_mushroom_type">MushroomTypeActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_privacity">PrivacityActivity</string>
+    <string name="title_activity_help_and_support">HelpAndSupportActivity</string>
+    <string name="title_activity_guess_play_lv_l2">GuessPlayLvL2Activity</string>
+    <string name="title_activity_mushroom_guess_game_lv_l2">MushroomGuessGameLvL2Activity</string>
+
+</resources>

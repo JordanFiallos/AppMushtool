@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "286540708450",
+    "firebase_url": "https://mushtool-e60ea-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mushtool-e60ea",
+    "storage_bucket": "mushtool-e60ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286540708450:android:15a44e6581d183722f6f3b",
+        "android_client_info": {
+          "package_name": "com.example.mushtool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLTy8-mwAF4Npy1HcsvpVBxtjTh_nFsW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

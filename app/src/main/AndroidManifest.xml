@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:name=".API.App"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MushTool"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup"
+        tools:targetApi="31">
+        <activity
+            android:name=".screens.MushroomGuessGameLvL2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_mushroom_guess_game_lv_l2"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".LGridSelect"
+            android:exported="false"
+            android:label="LGridSelect"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".screens.settings.HelpAndSupportActivity"
+            android:exported="false"
+            android:label="@string/title_activity_help_and_support"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".screens.settings.PrivacityActivity"
+            android:exported="false"
+            android:label="@string/title_activity_privacity"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".screens.settings.NotificationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".screens.MushroomTypeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_mushroom_type"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".Forum.ForumActivity"
+            android:exported="false"
+            android:label="@string/title_activity_forum"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".Recetas.RecetasFActivity"
+            android:exported="false"
+            android:label="@string/title_activity_recetas_factivity"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".RecetaActivity"
+            android:exported="false"
+            android:label="RecetaActivity"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".pWeb"
+            android:exported="false"
+            android:label="@string/title_activity_pweb"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".screens.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".screens.PlayMemoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_play_memory"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".screens.PlayActivity"
+            android:exported="false"
+            android:label="@string/title_activity_play"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".screens.GuessGameActivity"
+            android:exported="false"
+            android:label="@string/title_activity_guess_game"
+            android:theme="@style/Theme.MushTool" />
+
+        <activity
+            android:name=".games.MushroomGuessGameLvL2Activity"/>
+        <activity
+            android:name=".screens.GameActivity"
+            android:exported="false"
+            android:label="@string/title_activity_game"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".plantillaRecetas"
+            android:exported="false"
+            android:label="plantilla_recetas"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".pListGrid"
+            android:exported="false"
+            android:label="@string/title_activity_plist_grid"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".screens.pCamera"
+            android:exported="false"
+            android:label="@string/title_activity_pcamera"
+            android:theme="@style/Theme.MushTool" />
+        <activity
+            android:name=".plantillaBuscar"
+            android:exported="false"
+            android:label="@string/title_activity_plantilla_buscar"
+            android:theme="@style/Theme.MushTool" />
+        <activity android:name=".Model.logicCamera" />
+        <activity android:name=".Mymushrooms" />
+        <activity android:name=".map.myMap" />
+        <activity android:name=".Glosari.myGlossarryListMusht" />
+        <activity android:name=".API.ApiActivity" />
+        <activity
+            android:name=".newsMushtool.NewsActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MushTool">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
